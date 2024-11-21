@@ -1,14 +1,26 @@
 {
-  "name": "portfolio-generator",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "\"\"",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
   },
-  "author": "",
+  "scripts": {
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "mwihaki",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^12.1.0"
+    "inquirer": "^8.2.6",
+    "moment": "^2.30.1",
+    "portfolio": "file:",
+    "project": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "app.js"
   }
 }
