@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "project",
   "version": "1.0.0",
-  "description": "\"\"",
+  "description": "",
   "main": "app.js",
   "directories": {
     "lib": "lib"
@@ -11,16 +11,10 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "mwihaki",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.6",
-    "moment": "^2.30.1",
-    "portfolio": "file:",
+    "inquirer": "^8.2.4",
     "project": "file:"
-  },
-  "repository": {
-    "type": "git",
-    "url": "app.js"
   }
 }
